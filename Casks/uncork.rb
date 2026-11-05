@@ -8,10 +8,8 @@ cask "uncork" do
   homepage "https://uncorkmac.com/"
 
   livecheck do
-    url "https://uncorkmac.com/changelog.json"
-    strategy :json do |json|
-      json.first["version"]
-    end
+    url "https://uncorkmac.com/changelog.atom"
+    regex(%r{<title>Uncork\s+v?(\d+(?:\.\d+)+)</title>}i)
   end
 
   depends_on arch: :arm64
