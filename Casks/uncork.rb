@@ -1,6 +1,6 @@
 cask "uncork" do
-  version "1.6.2"
-  sha256 "b5f5e8fee2bf404bb999b123b771b530732b63d7e96b07bed8ebe57f2be7954a"
+  version "1.6.3"
+  sha256 "5fdf2dfd68d4e3754c57e20af64e17e68478b004a8f649d112690720cf57c7d3"
 
   url "https://uncorkmac.com/updates/Uncork-#{version}.dmg"
   name "Uncork"
