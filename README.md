@@ -13,3 +13,12 @@ brew install --cask uncork
 
 The cask installs the same notarized DMG available from
 [uncorkmac.com](https://uncorkmac.com/).
+
+Without Homebrew, one command does the same:
+
+```sh
+curl -fsSL https://uncorkmac.com/install.sh | sh
+```
+
+It checks the SHA-256, the Developer ID signature (team PJC7K6A3U5) and Apple's notarization before
+copying the app; details are on the [install page](https://uncorkmac.com/en/install.html).
